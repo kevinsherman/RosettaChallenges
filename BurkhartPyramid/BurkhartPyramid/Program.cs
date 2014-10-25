@@ -30,7 +30,7 @@ namespace BurkhartPyramid
                     inputBaseNumber = Console.ReadLine();
                     if (int.TryParse(inputBaseNumber, out baseNumber))
                     {
-                        if (baseNumber == 0)
+                        if (baseNumber <= 0)
                         {
                             Console.WriteLine("Base Number must be greater than zero.");
                         }
@@ -52,7 +52,7 @@ namespace BurkhartPyramid
                     inputRows = Console.ReadLine();
                     if (int.TryParse(inputRows, out rows))
                     {
-                        if (rows == 0)
+                        if (rows <= 0)
                         {
                             Console.WriteLine("Number of rows must be greater than zero.");
                         }
