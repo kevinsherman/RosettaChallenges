@@ -89,8 +89,7 @@ namespace BurkhartPyramid
             {
                 if (i+1 == center){
                     board[row,i]=baseNumber;
-                } else {
-                    board[row,i]=0;
+                    break;
                 }
             }
 
